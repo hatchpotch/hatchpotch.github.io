@@ -65,38 +65,40 @@ h1 {
     text-align:center;
 }
 h2 {
-    color: white;
-    
-}
-h3 {
     text-transform: uppercase;
-    font-size:5rem;
+    font-size: 3rem;
     margin: 0;
     letter-spacing: .5rem;
     color: darkred;
-    text-shadow: .0937rem .0937rem .0937rem #000;
+    text-shadow: .09375rem .09375rem .09375rem #000;
     font-family: 'Alfa Slab One', Garamond, serif;
     text-align: center;
 }
-h4 {
+h3 {
     text-transform: uppercase;
-    font-size: 4rem;
+    font-size:2rem;
     margin: 0;
     letter-spacing: .5rem;
     color: black;
     text-shadow: .0937rem .0937rem .0937rem #000;
     font-family: 'Alfa Slab One', Garamond, serif;
     text-align: center;
-    
 }
-h5 {
+h4 {
     text-transform: uppercase;
-    font-size:5rem;
+    font-size: 1rem;
     margin: 0;
     letter-spacing: .5rem;
     color: darkred;
     text-shadow: .0937rem .0937rem .0937rem #000;
     font-family: 'Alfa Slab One', Garamond, serif;
+    text-align: center;
+    
+}
+h5 {
+    margin: 0;
+    letter-spacing: .5rem;
+    color: white;
     text-align: center;
     
 }
