@@ -86,7 +86,7 @@ h3 {
 }
 h4 {
     text-transform: uppercase;
-    font-size: 1rem;
+    font-size: 2rem;
     margin: 0;
     letter-spacing: .5rem;
     color: darkred;
@@ -103,13 +103,23 @@ h5 {
     
 }
 /* Section & Paragraph */
-
-
+section {}
+p {}
 
 /* Image & Figure */
-
-
-
+img {
+    width: 100px;
+    margin-top, margin-bottom: 0;
+    margin-left, margin-right: auto;
+    max-width: 50rem;
+}
+figure {
+    margin-bottom: .125rem;
+}
+figcaption {
+    text-align: right;
+    padding-top: .5rem;
+}
 /* Footer */
-
+footer {}
 
