@@ -68,7 +68,7 @@ h2 {
     text-transform: uppercase;
     font-size: 3rem;
     margin: 0;
-    letter-spacing: .5rem;
+    letter-spacing: .25rem;
     color: darkred;
     text-shadow: .09375rem .09375rem .09375rem #000;
     font-family: 'Alfa Slab One', Garamond, serif;
@@ -76,19 +76,19 @@ h2 {
 }
 h3 {
     text-transform: uppercase;
-    font-size:2rem;
+    font-size:1.125rem;
     margin: 0;
     letter-spacing: .5rem;
     color: black;
-    text-shadow: .0937rem .0937rem .0937rem #000;
     font-family: 'Alfa Slab One', Garamond, serif;
     text-align: center;
 }
 h4 {
     text-transform: uppercase;
-    font-size: 2rem;
+    font-size: .24rem;
     margin: 0;
-    letter-spacing: .5rem;
+    letter-spacing: .04rem;
+    padding-bottom: .18rem;
     color: darkred;
     text-shadow: .0937rem .0937rem .0937rem #000;
     font-family: 'Alfa Slab One', Garamond, serif;
@@ -96,19 +96,31 @@ h4 {
     
 }
 h5 {
-    margin: 0;
+    font-size: 1rem;
+    margin-top: .25rem;
+    padding-bottom, padding-top, padding-right, padding-left: .5rem;
+    background-color: #333;
     letter-spacing: .5rem;
-    color: white;
+    color: #FFF;
     text-align: center;
     
 }
 /* Section & Paragraph */
-section {}
-p {}
+section {
+    margin-top: .08rem;
+}
+p {
+    margin-top, margin-bottom: .16rem;
+    margin-left, margin-right: auto;
+    padding-top, padding-bottom: 0;
+    padding-left, padding-right: .16rem;
+    width: 90%;
+    text-align: left;
+}
 
 /* Image & Figure */
 img {
-    width: 100px;
+    width: 1rem;
     margin-top, margin-bottom: 0;
     margin-left, margin-right: auto;
     max-width: 50rem;
