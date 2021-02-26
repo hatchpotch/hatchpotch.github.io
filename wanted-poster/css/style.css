@@ -83,6 +83,12 @@ h3 {
     font-family: 'Alfa Slab One', Garamond, serif;
     text-align: center;
 }
+Span{
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: .5rem;
+    padding-right: .5rem;
+}
 h4 {
     text-transform: uppercase;
     font-size: 1.5rem;
@@ -104,6 +110,7 @@ h5 {
     padding-left: .5rem;
     background-color: #333;
     letter-spacing: .5rem;
+    font-weight: normal;
     color: #FFF;
     text-align: center;
     
@@ -148,7 +155,7 @@ footer {
     padding-left: 1rem;
     padding-right: 1rem;
     border-top-width: 2rem;
-    border-style: solid;
-    border-color: #333;
+    border-top-style: solid;
+    border-top-color: #333;
 }
 
