@@ -98,11 +98,11 @@ header, footer {
 
 
 html {
-    font-family: Montserrat, sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 h1 {
-    font-family: Josefinslab, Arial, sans-serif;
+    font-family: 'Josefinslab', 'Arial', sans-serif;
     letter-spacing: .125rem;
     font-size: 3.75rem;
     margin: 1.125rem;
@@ -110,13 +110,13 @@ h1 {
 }
 
 h2 {
-    font-family: Josefinslab, Arial, sans-serif;
+    font-family: 'Josefinslab', 'Arial', sans-serif;
     letter-spacing: .125rem;
     font-size: 1.5rem;
 }
 
 h2 + p {
-    font-family: Josefinslab, Arial, sans-serif;
+    font-family: 'Josefinslab', 'Arial', sans-serif;
     letter-spacing: .125rem;
 }
 
