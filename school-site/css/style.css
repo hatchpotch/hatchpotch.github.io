@@ -152,7 +152,7 @@ a:visited {
 
 a:focus,
 a:hover {
-    text-underline-position: none;
+    text-decoration: none;
 }
 
 
@@ -191,7 +191,7 @@ nav {
 }
 
 nav a {
-    text-underline-position: none;
+    text-decoration: none;
     display: inline-block;
     width: 100%;
     line-height: 3;
