@@ -86,8 +86,8 @@ header, footer {
     font-style:normal;
 }
 @font-face {
-    font-family:Josefinslab
-    src: url(../fonts/josefinslab-regular.ttf) format('truetype');
+    font-family:Josefinslab;
+    src: url(../fonts/josefinslab-regular.ttf);
     font-weight:normal;
     font-style:normal;
 }
@@ -116,6 +116,9 @@ h2 {
 }
 
 h2 + p {
+    font-size: .75rem;
+    letter-spacing: .031rem;
+    word-spacing: .125rem;
     text-indent: 1.5rem;
 }
 
