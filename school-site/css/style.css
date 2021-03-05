@@ -199,7 +199,9 @@ nav a {
     text-align: center;
     font-size: 1.125rem;
     margin-bottom: 1.5rem;
-    border: solid, .063rem, color: #33658A;
+    border: solid;
+    border-width: .063rem;
+    border-color: #33658A;
 }
 
 nav a:focus,
