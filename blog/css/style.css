@@ -115,6 +115,7 @@ html {
 }
 
 h1 {
+    color: palevioletred;
     font-family: serif, sans-serif;
     letter-spacing: .031rem;
     font-size: 3.75rem;
