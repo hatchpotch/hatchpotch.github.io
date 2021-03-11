@@ -48,4 +48,135 @@
 
 /* ------ START WRITING YOUR CODE BELOW ------ */
 
+* {
+    box-sizing: border-box;
+}
 
+html {
+    font-size:16px;
+}
+
+body {
+    margin: 1.5rem auto;
+    width:90%;
+    min-width:56.25rem;
+}
+
+/* Layout */
+
+main {
+    overflow:auto;
+    min-width:45rem;
+    
+}
+
+section {
+    float: left;
+    min-width: 22.5rem;
+    width:50%;
+}
+
+figure {
+    width:60%;
+    margin:0 10% 0 0;
+    float:left;
+}
+
+figure img {
+    width:100%;
+    max-width:25rem;
+}
+
+figcaption {
+    margin:.375rem 0;
+}
+
+.long-list {
+    margin-top:0;
+}
+
+nav {
+    float: left;
+    width:11.25rem;
+}
+
+footer {
+    clear: both;
+    margin-top:1.5rem;
+}
+
+section, aside, nav, footer {
+  padding: .5rem;
+}
+
+/*Font*/
+html {
+    font-family: sans-serif;
+}
+
+h1 {
+    font-family: serif, sans-serif;
+    letter-spacing: .031rem;
+    font-size: 3.75rem;
+    margin: 1.125rem;
+    text-align: center;
+}
+
+h2 {
+    font-family: serif, sans-serif;
+    letter-spacing:  .031rem;
+    }
+
+h3 {
+    font-family: serif, sans-serif;
+    letter-spacing: .031rem;
+    }
+
+p {
+    font-size: .75rem;
+    letter-spacing: .031rem;
+    word-spacing: .125rem;
+    }
+/*Link Styling*/
+a {
+    outline: none;
+}
+
+a:link,
+a:visited {
+    color: purple;
+}
+
+a:focus,
+a:hover {
+    text-decoration: none;
+    
+/*Nav Menu*/
+nav {
+    padding-left: o;
+    margin-top: .25rem;
+    
+}
+
+nav a {
+    text-decoration: none;
+    display: inline-block;
+    width: 100%;
+    line-height: 3;
+    text-align: center;
+    font-size: 1.125rem;
+    margin-bottom: 1.5rem;
+    border: solid;
+    border-width: .063rem;
+    border-color: #33658A;
+}
+
+nav a:focus,
+nav a:hover {
+    color: #FFF;
+    background-color: #33658A;
+}
+
+nav a:active {
+    color: #FFF;
+    background-color: #000;
