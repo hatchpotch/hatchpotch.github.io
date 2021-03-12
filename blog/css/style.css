@@ -55,14 +55,16 @@ html {
 }
 
 h1 {
-    color: palevioletred;
+    color: black;
     font-family: sans-serif, serif;
     letter-spacing: .031rem;
     font-size: 3.75rem;
     transform: rotate(-5deg);
     margin: 1.125rem;
     text-align: center;
-    text-shadow: .05rem;
+    text-shadow: .031rem;
+}
+
 }
 
 h2 {
@@ -98,18 +100,19 @@ a:hover {
 /*Nav Menu*/
 nav {
     padding-left: o;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
+    margin-top: .125rem;
+    margin-bottom: .125rem;
     
 }
 
 nav a {
-    word-spacing: 1rem;
     display:inline;
     width: 100%;
-    line-height: 5;
+    line-height: 2;
     text-align: left;
     border: none;
+    font-size: 2rem;
+    word-spacing: 1rem;
 }
 
 nav a:focus,
@@ -125,8 +128,36 @@ nav a:active {
     
 /*Aside*/
 aside {
-    text-align: right;
+    float: right;
+    width: 30%;
+    text-align: left;
     image-orientation: right;
     align-content: column;
 }
 
+subsection {
+    float:left;
+    image-orientation: left;
+    align-content: row;
+}
+
+article {
+    float: left;
+    width: 63%
+}
+
+button {
+    color: white;
+    background-color: cadetblue;
+    border: none;
+}
+
+image {
+    align-content: left;
+}
+
+span {
+    background-color: firebrick;
+    text-decoration-color: antiquewhite;
+    border: button;
+}
