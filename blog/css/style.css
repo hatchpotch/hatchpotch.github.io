@@ -63,6 +63,7 @@ h1 {
     margin: 1.125rem;
     text-align: center;
     text-shadow: .031rem;
+    padding: 1.5rem;
 }
 
 }
@@ -102,6 +103,7 @@ nav {
     padding-left: o;
     margin-top: .125rem;
     margin-bottom: .125rem;
+    word-spacing: 1rem;
     
 }
 
@@ -156,8 +158,9 @@ button {
 
 image {
     align-content: left;
-    width: 20%;
+    max-width: 100%;
     display: inline;
+    padding: .125rem;
 }
 
 span {
@@ -191,4 +194,9 @@ article {
     width: 27rem;
     height: 32rem;
     margin: 1rem;
+}
+
+.container {
+    column-width: 20rem;
+    
 }
