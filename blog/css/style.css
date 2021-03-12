@@ -115,7 +115,7 @@ h1 {
     font-family: serif, sans-serif;
     letter-spacing: .031rem;
     font-size: 3.75rem;
-    transform: rotate(5deg);
+    transform: rotate(-5deg);
     margin: 1.125rem;
     text-align: center;
     text-shadow: .05rem;
