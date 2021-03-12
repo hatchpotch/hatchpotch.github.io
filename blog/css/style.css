@@ -67,7 +67,7 @@ h1 {
 
 h2 {
     font-family: sans-serif, serif;
-    letter-spacing:  .031rem;
+    font-size: 1.75rem;
     }
 
 h3 {
@@ -99,7 +99,7 @@ a:hover {
 /*Nav Menu*/
 nav {
     padding-left: o;
-    margin-top: .25rem;
+    margin-top: 2rem;
     
 }
 
@@ -107,7 +107,7 @@ nav a {
     text-decoration: none;
     display:inline;
     width: 100%;
-    line-height: 3;
+    line-height: 5;
     text-align: left;
     border: none;
 }
@@ -147,3 +147,10 @@ aside {
 .subsection {
     align-content: inline;
 }
+
+<style>
+.vl {
+    border-right: 2px black;
+    height: 100%;
+}
+</style>
