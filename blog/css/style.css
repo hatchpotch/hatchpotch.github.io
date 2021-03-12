@@ -79,7 +79,6 @@ section {
 figure {
     width:60%;
     margin:0 10% 0 0;
-    float:left;
 }
 
 figure img {
@@ -103,12 +102,12 @@ footer {
 
 /*Font*/
 html {
-    font-family: sans-serif;
+    font-family: serif;
 }
 
 h1 {
     color: palevioletred;
-    font-family: serif, sans-serif;
+    font-family: sans-serif, serif;
     letter-spacing: .031rem;
     font-size: 3.75rem;
     transform: rotate(-5deg);
@@ -118,12 +117,12 @@ h1 {
 }
 
 h2 {
-    font-family: serif, sans-serif;
+    font-family: sans-serif, serif;
     letter-spacing:  .031rem;
     }
 
 h3 {
-    font-family: serif, sans-serif;
+    font-family: sans-serif, serif;
     letter-spacing: .031rem;
     }
 
@@ -135,6 +134,7 @@ p {
 /*Link Styling*/
 a {
     outline: none;
+    text-decoration: none;
 }
 
 a:link,
@@ -156,7 +156,7 @@ nav {
 
 nav a {
     text-decoration: none;
-    display:block;
+    display:inline;
     width: 100%;
     line-height: 3;
     text-align: left;
@@ -167,7 +167,7 @@ nav a {
 
 nav a:focus,
 nav a:hover {
-    color: midnightblue;
+    color: cadetblue;
     background-color: white;
 }
 
@@ -184,7 +184,7 @@ aside {
 
 /*This might be a mistake but div container lets go*/
 .container {
-    column-width: 12.5rem;
+    column-width: 24rem;
     align-content: right;
 }
 
