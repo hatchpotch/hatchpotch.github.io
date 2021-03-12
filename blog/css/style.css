@@ -91,12 +91,8 @@ figcaption {
     margin:.375rem 0;
 }
 
-.long-list {
-    margin-top:0;
-}
-
 nav {
-    float: left;
+    float:;
     width:11.25rem;
 }
 
@@ -121,6 +117,7 @@ h1 {
     font-size: 3.75rem;
     margin: 1.125rem;
     text-align: center;
+    text-shadow: .05rem;
 }
 
 h2 {
