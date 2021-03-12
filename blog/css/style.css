@@ -127,13 +127,14 @@ nav a:active {
 aside {
     text-align: right;
     image-orientation: right;
+    align-content: column;
 }
 
 /*This might be a mistake but div container lets go*/
 .container {
     column-width: 24rem;
     align-content: right;
-    display: table-column
+    display: table-column;
 }
 
 
@@ -155,3 +156,7 @@ aside {
     height: 100%;
 }
 </style>
+
+article {
+    align-content: column;
+}
