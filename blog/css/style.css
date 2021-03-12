@@ -48,57 +48,6 @@
 
 /* ------ START WRITING YOUR CODE BELOW ------ */
 
-* {
-    box-sizing: border-box;
-}
-
-html {
-    font-size:16px;
-}
-
-body {
-    margin: 1.5rem auto;
-    width:100%;
-    min-width:56.25rem;
-}
-
-/* Layout */
-
-main {
-    overflow:auto;
-    min-width:45rem;
-    
-}
-
-section {
-    float: left;
-    min-width: 22.5rem;
-    width:50%;
-}
-
-figure {
-    width:60%;
-    margin:0 10% 0 0;
-}
-
-figure img {
-    width:100%;
-    max-width:25rem;
-}
-
-figcaption {
-    margin:.375rem 0;
-}
-
-nav {
-    float:;
-    width:11.25rem;
-}
-
-footer {
-    clear: both;
-    margin-top:1.5rem;
-}
 
 /*Font*/
 html {
@@ -160,7 +109,6 @@ nav a {
     width: 100%;
     line-height: 3;
     text-align: left;
-    font-size: 1.125rem;
     margin-bottom: 1.5rem;
     border-bottom: solid;
 }
