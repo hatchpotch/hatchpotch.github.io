@@ -133,6 +133,7 @@ aside {
 .container {
     column-width: 24rem;
     align-content: right;
+    display: table-column
 }
 
 
