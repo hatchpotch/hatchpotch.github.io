@@ -142,3 +142,8 @@ aside {
 .wrapper {
     display:flex;
 }
+
+
+.subsection {
+    align-content: inline;
+}
