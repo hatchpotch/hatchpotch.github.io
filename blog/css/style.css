@@ -67,7 +67,6 @@ h1 {
 
 h2 {
     font-family: sans-serif, serif;
-    font-size: 1.75rem;
     }
 
 h3 {
@@ -99,12 +98,13 @@ a:hover {
 /*Nav Menu*/
 nav {
     padding-left: o;
-    margin-top: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
     
 }
 
 nav a {
-    text-decoration: none;
+    word-spacing: 1rem;
     display:inline;
     width: 100%;
     line-height: 5;
