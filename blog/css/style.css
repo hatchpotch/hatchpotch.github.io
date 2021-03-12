@@ -58,7 +58,7 @@ html {
 
 body {
     margin: 1.5rem auto;
-    width:90%;
+    width:100%;
     min-width:56.25rem;
 }
 
@@ -99,10 +99,6 @@ nav {
 footer {
     clear: both;
     margin-top:1.5rem;
-}
-
-section, aside, nav, footer {
-  padding: .5rem;
 }
 
 /*Font*/
@@ -190,4 +186,12 @@ aside {
 .container {
     column-width: 12.5rem;
     align-content: right;
+}
+
+
+
+
+
+.wrapper {
+    display:flex;
 }
